@@ -1,7 +1,9 @@
 # SimpleChat
 A simple Chat Application with a Chat-Server and Chat-Client in Delphi. <br>
+
+##Compiling
 Use Delphi (for example the Community Version) or Lazarus to compile it.<br>
-I programmed and tested it with the Community Version of Delphi.
+I programmed and tested it with Delphi 11.3 Community Edition.
 
 ## How to use 
 Start the Chat-Server with a Port, for example with Port 8181, in your Console/Powershell: <br>
