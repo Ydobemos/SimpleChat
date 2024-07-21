@@ -3,7 +3,7 @@ A simple Chat Application with a Chat-Server and Chat-Client in C++. <br>
 It uses Boost.Asio: https://www.boost.org/
 I am using the (at this time of writing) current version 1.85.0. Other Versions should also work.<br>  
 
-##Compile in Windows 
+## Compile in Windows 
 I recommend to use Visual Studio. For example the free Community Version. <br> 
 Download Boost.Asio and extract it somewhere. <br> 
 Add Include Directories in Visual Studio for this Boost.Asio path: <br> 
@@ -18,7 +18,7 @@ Make sure that all required DLLs are in the same directory as the .exe file.<br>
 Alternatively, you can statically link the dependencies to get a standalone executable. <br>
 This is possible in the project properties under `Configuration Properties` -> `C/C++` -> `Code Generation` -> `Runtime Library` by choosing /MT instead of /MD.
 
-##Compile in  Linux
+## Compile in  Linux
 Install the necessary packages if they are not already installed: <br>
 `sudo apt update` <br>
 `sudo apt install g++ libboost-all-dev` <br>
