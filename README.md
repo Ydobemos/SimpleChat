@@ -4,6 +4,12 @@ For now in C++ and Delphi. <br>
 The executable files of the different languages ​​are compatible with each other.<br>
 For more information please see the ReadMe file in the corresponding folder of the programming language.
 
+## Download
+Find the Releases on the Release Page: <br>
+For now it is only compiled for Windows... Linux Versions may follow.<br>
+https://github.com/Ydobemos/SimpleChat/releases/tag/0.1
+
+
 ## How to use the C++ Program (in Linux or Windows)
 Start the Chat-Server with a Port, for example with Port 8181, in your console/terminal: <br>
 `./chat_server 8181` <br>
