@@ -27,10 +27,13 @@ Compile the Client in the same way: <br>
 `g++ -o chat_client chat_client.cpp -lboost_system` <br> 
 
 ## How to use 
-Start the Chat-Server with a Port, for example with Port 8181: <br>
+Start the Chat-Server with a Port, for example with Port 8181, in your console/terminal: <br>
 `./chat_server 8181` <br>
+You might adjust the filename. So in Windows it rather looks like:<br>
+`.\chat_server_cpp.exe 8181`
 Now you can connect with a Client to this Server. You need the Server address and the Server port. <br>
 For a localhost Server, with the Port we already used in the previous example, it looks like: <br>
 `./chat_client localhost 8181` <br>
-Open another Client in the same way in a different terminal to start Chatting between those two Clients on the Terminal. <br>
+In Windows it looks like: `.\chat_client_cpp.exe localhost 8181`<br>
+Open another Client in the same way in a different console/terminal to start chatting between those two Clients on the Terminal. <br>
  <br> 
